@@ -3,13 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import Navbar from "./Components/Navbar";
+import HomePage from "./Components/HomePage";
 
 function App() {
 
   return (
     <div>
-      <Navbar/>
+      <HomePage/>
     </div>
   )
 }
