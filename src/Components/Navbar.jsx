@@ -20,7 +20,7 @@ function Navbar(){
                     <img className="h-12 pl-4" src={Logo} alt="" />
                 </div>
                 <nav className="relative">
-                    <ul className="flex items-center gap-20 text-lg max-sm:hidden">
+                    <ul className="flex items-center gap-20 text-[20px] max-sm:hidden">
                         <li className="font-bold text-white hover:text-blue-200 transition"><a href="">Aprende</a></li>
                         <li className="font-bold text-white hover:text-blue-200 transition"><a href="">Traduce</a></li>
                         <li className="font-bold text-white hover:text-blue-200 transition"><a href="">Más información</a></li>
