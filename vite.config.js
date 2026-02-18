@@ -12,4 +12,5 @@ export default defineConfig({
       },
     }),
   ],
+  base:"https://VOIDxLN.github.io/MorseLearning-Page"
 })
