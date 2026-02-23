@@ -1,4 +1,5 @@
 import Logo from '../Images/Focabebe.png'
+import { Link } from 'react-router-dom'
 import { useState } from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
 
@@ -39,9 +40,9 @@ function Navbar(){
                 </div>
                 <nav className="relative">
                     <ul className="flex items-center gap-20 text-[20px] max-sm:hidden">
-                        <li className="font-bold text-white hover:text-blue-200 transition"><a href="">Aprende</a></li>
-                        <li className="font-bold text-white hover:text-blue-200 transition"><a href="">Traduce</a></li>
-                        <li className="font-bold text-white hover:text-blue-200 transition"><a href="">Más información</a></li>
+                        <li className="font-bold text-white hover:text-blue-200 transition"><Link>Aprende</Link></li>
+                        <li className="font-bold text-white hover:text-blue-200 transition"><Link to="/home">Traduce</Link></li>
+                        <li className="font-bold text-white hover:text-blue-200 transition"><Link to="/MasInfo">Más información</Link></li>
                     </ul>
                 </nav>
                 <div className="pr-12"></div>
